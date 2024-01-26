@@ -1,10 +1,8 @@
-'use client';
-
-import YouTube from "react-youtube";
+import VideoFeed from "../components/VideoFeed";
 
 export default function Page() {
   return <>
     <h1>Youtube</h1>
-    <YouTube videoId="4-O_H8bukOU" />
+    <VideoFeed/>
   </>;
 }
